@@ -1,0 +1,9 @@
+# Configuração compartilhada pelos dois sites na Netlify.
+# A versão (chat ou whatsapp) é definida por site, na variável de ambiente
+# NEXT_PUBLIC_BOOKING_MODE, configurada no painel da Netlify.
+
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
