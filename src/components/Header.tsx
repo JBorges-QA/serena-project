@@ -6,16 +6,16 @@ import BookButton from "./BookButton";
 import Icon from "./Icon";
 
 const links = [
-  { href: "#servicos", label: "Serviços" },
-  { href: "#sobre", label: "Sobre" },
-  { href: "#como-funciona", label: "Como funciona" },
-  { href: "#depoimentos", label: "Depoimentos" },
-  { href: "#contato", label: "Contato" },
+  { href: "/#servicos", label: "Serviços" },
+  { href: "/#sobre", label: "Sobre" },
+  { href: "/#como-funciona", label: "Como funciona" },
+  { href: "/#depoimentos", label: "Depoimentos" },
+  { href: "/#contato", label: "Contato" },
 ];
 
 export function Logo() {
   return (
-    <a href="#inicio" className="logo" aria-label={clinic.fullName}>
+    <a href="/#inicio" className="logo" aria-label={clinic.fullName}>
       <span className="logo-mark">
         <Icon name="leaf" size={20} />
       </span>

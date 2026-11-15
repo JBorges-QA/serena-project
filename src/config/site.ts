@@ -37,6 +37,26 @@ export const copy = isChat
       ctaText: "Primeira sessão com 15% de desconto. Agende agora pelo chat — leva menos de um minuto.",
       rescheduleFaq:
         "Sim, sem custo, com até 12 horas de antecedência pelo WhatsApp ou pelo nosso assistente virtual.",
+      privacyCollection: {
+        paragraphs: [
+          "Coletamos apenas os dados que você nos informa ao agendar pelo assistente virtual ou ao falar com a nossa equipe:",
+        ],
+        items: [
+          "Nome completo e número de WhatsApp, para registrar e confirmar o agendamento;",
+          "Serviço, data e horário escolhidos;",
+          "As mensagens trocadas com o assistente virtual, usadas apenas para concluir o seu atendimento.",
+        ],
+      },
+      privacySharing: {
+        paragraphs: [
+          "Não vendemos nem alugamos os seus dados. Eles podem ser compartilhados somente com:",
+        ],
+        items: [
+          "Prestadores que nos ajudam a operar o site e a agenda (como a hospedagem), sob obrigação de confidencialidade;",
+          "O WhatsApp, quando enviamos a confirmação do agendamento para o número informado;",
+          "Autoridades públicas, quando exigido por lei ou ordem judicial.",
+        ],
+      },
     }
   : {
       heroLead:
@@ -51,4 +71,24 @@ export const copy = isChat
       howCta: "Chamar no WhatsApp",
       ctaText: "Primeira sessão com 15% de desconto. Chame a gente no WhatsApp e garanta seu horário.",
       rescheduleFaq: "Sim, sem custo, com até 12 horas de antecedência pelo nosso WhatsApp.",
+      privacyCollection: {
+        paragraphs: [
+          "Este site não tem formulários e não coleta dados pessoais diretamente. Ao clicar em “Agendar”, você é levado ao WhatsApp, onde coletamos apenas o que você nos envia:",
+        ],
+        items: [
+          "Nome e número de telefone, para identificar você e confirmar o agendamento;",
+          "Serviço, data e horário escolhidos;",
+          "O conteúdo das mensagens trocadas com a nossa equipe.",
+        ],
+      },
+      privacySharing: {
+        paragraphs: [
+          "Não vendemos nem alugamos os seus dados. Eles podem ser compartilhados somente com:",
+        ],
+        items: [
+          "O WhatsApp (Meta), plataforma usada no atendimento, que trata as mensagens conforme a política de privacidade própria;",
+          "Prestadores que nos ajudam a operar o site e a agenda (como a hospedagem), sob obrigação de confidencialidade;",
+          "Autoridades públicas, quando exigido por lei ou ordem judicial.",
+        ],
+      },
     };

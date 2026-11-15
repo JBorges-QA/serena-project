@@ -14,7 +14,7 @@ export default function Footer() {
           <ul>
             {services.slice(0, 4).map((s) => (
               <li key={s.id}>
-                <a href="#servicos">{s.name}</a>
+                <a href="/#servicos">{s.name}</a>
               </li>
             ))}
           </ul>
@@ -22,9 +22,10 @@ export default function Footer() {
         <div>
           <h4>Clínica</h4>
           <ul>
-            <li><a href="#sobre">Sobre nós</a></li>
-            <li><a href="#depoimentos">Depoimentos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="/#sobre">Sobre nós</a></li>
+            <li><a href="/#depoimentos">Depoimentos</a></li>
+            <li><a href="/#contato">Contato</a></li>
+            <li><a href="/privacidade">Política de privacidade</a></li>
           </ul>
         </div>
         <div>
@@ -38,7 +39,9 @@ export default function Footer() {
       </div>
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} {clinic.fullName}. Todos os direitos reservados.</span>
-        <span>Site demonstrativo</span>
+        <span>
+          <a href="/privacidade">Política de privacidade</a> • Site demonstrativo
+        </span>
       </div>
     </footer>
   );

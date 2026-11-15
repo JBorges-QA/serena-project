@@ -457,6 +457,12 @@
   background: var(--surface);
   letter-spacing: 0.02em;
 }
+.disclaimer a {
+  text-decoration: underline;
+}
+.disclaimer a:hover {
+  color: var(--sage-800);
+}
 
 @keyframes rise {
   from { opacity: 0; transform: translateY(8px); }
