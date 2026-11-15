@@ -179,7 +179,12 @@ async function handle(raw: string, state: ConversationState): Promise<BotReply> 
       if (slotsFor(state.booking.date!).includes(candidate)) {
         return {
           state: { ...state, step: "booking_name", booking: { ...state.booking, time: candidate } },
-          messages: [text("Perfeito! Qual é o seu **nome completo**?", [cancelChip])],
+          messages: [
+            text(
+              "Perfeito! Qual é o seu **nome completo**?\nSeus dados serão usados apenas para este agendamento, conforme nossa Política de privacidade.",
+              [cancelChip]
+            ),
+          ],
         };
       }
       const r = askTime(state);

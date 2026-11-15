@@ -32,7 +32,9 @@ npm run build:whatsapp && npm run start:whatsapp       # WhatsApp
 ```
 src/
   app/                 layout, página e estilos globais
+  app/privacidade/     página da política de privacidade (LGPD)
   content/clinic.ts    dados da clínica (serviços, preços, horários, FAQ…) — fonte única p/ site e chatbot
+  content/privacy.ts   texto da política de privacidade (trechos por modo ficam em config/site.ts)
   components/
     sections/          seções da página (Hero, Serviços, Sobre…)
     chat/ChatWidget    interface do chatbot

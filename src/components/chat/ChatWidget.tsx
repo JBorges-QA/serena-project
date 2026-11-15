@@ -271,7 +271,12 @@ export default function ChatWidget() {
             </svg>
           </button>
         </form>
-        <p className={styles.disclaimer}>Demonstração • {clinic.fullName}</p>
+        <p className={styles.disclaimer}>
+          Demonstração • {clinic.fullName} •{" "}
+          <a href="/privacidade" target="_blank" tabIndex={open ? 0 : -1}>
+            Privacidade
+          </a>
+        </p>
       </section>
 
       {/* Convite */}
